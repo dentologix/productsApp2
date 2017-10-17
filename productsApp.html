@@ -1,0 +1,77 @@
+
+<div class="modal modal-narrow modal-center" id="products-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Products</h5>
+				<button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">×</span>
+				</button>
+			</div>
+			<div class="modal-body">
+
+				
+  <div class="panel-group" id="products-groups">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+       <a data-toggle="collapse" data-parent="#products-groups" href="#products-group-fixed" > 
+          Fixed
+       </a>
+      </div>
+      <div id="products-group-fixed" class="panel-collapse products-dropdown-menu collapse in">
+        <div class="fixed"> 
+       
+         </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <a data-toggle="collapse" data-parent="#products-groups" href="#products-group-movable"> 
+          Movable
+       </a>
+      </div>
+     
+          <div id="products-group-movable" class="panel-collapse products-dropdown-menu collapse">
+        <div class="movable"> 
+       
+         </div>
+      </div>
+      
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+       <a data-toggle="collapse" data-parent="#products-groups" href="#products-group-other"> 
+        Other
+       </a>
+      </div>
+      <div id="products-group-other" class="panel-collapse products-dropdown-menu collapse">
+        <div class="other"> 
+       
+         </div>
+      </div>
+    </div>
+  </div> 
+
+			</div>
+			<div class="row">
+				<div class="col-xs-6">
+					<button type="button" class="btn btn-primary btn-block btn-modal-bottom btn-modal-left dev" id="btn-products-hide">Continue</button> 
+				</div>
+
+				<div class="col-xs-6"> 
+					<button class="btn btn-default btn-block  btn-modal-bottom btn-modal-right" data-dismiss="modal" >Cancel</button> 
+				</div>
+			</div>
+		</div>  
+
+	</div>
+
+
+	<div class="list-row template products-list-item" >
+		<span class="badge badge-sm product-name"></span> 
+		<div class="product-long-name"></div>
+		<span class="product-price dev"></span>
+	</div>
+
+</div> 
+<!-- modal products finished -->
